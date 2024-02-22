@@ -34,7 +34,7 @@
 			from allinone.COMTNEMPLYRSCRTYESTBS a, allinone.COMVNUSERMASTER b
 			where a.scrty_dtrmn_trget_id = b.esntl_id"
 	    sqlRoleAndUrl="select a.role_pttrn url, b.author_code authority
-			from allinOne.COMTNROLEINFO a, allinOne.COMTNAUTHORROLERELATE b
+			from allinone.COMTNROLEINFO a, allinone.COMTNAUTHORROLERELATE b
 			where a.role_code = b.role_code
 			and a.role_ty = 'url'
 			order by a.role_sort"
